@@ -3,7 +3,7 @@
 
 ##  How to run
 ''' bash
-    conda create -n hate python=3.8 -y
+    conda create -n hate Python=3.12.5 -y
 '''
 
 ''' bash
@@ -11,5 +11,5 @@
 '''
 
 ''' bash
-    pip install -r requirementss.txt
+conda create -n myenv python=3.12
 '''
