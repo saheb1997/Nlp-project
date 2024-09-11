@@ -6,6 +6,7 @@ seaborn
 nltk
 regex
 scikit-learn
+from_root
 google-cloud-storage
 fastapi==0.78.0
 uvicorn==0.18.3
