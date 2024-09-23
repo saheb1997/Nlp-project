@@ -1,2 +1,8 @@
 from hate.logger import logging
-logging.info("welcome to our project")
+from hate.exception import CustomException
+import sys
+
+try:
+    a=7/"0"
+except Exception as e:
+    raise CustomException(e,sys) from e
